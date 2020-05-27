@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "lerna run --scope @Dashboard/* --parallel start",
+        "dev": "lerna run dev --parallel"
+    },
+    "devDependencies": {
+        "@lerna/run": "^3.21.0",
+        "lerna": "^3.22.0"
+    },
+    "name": "Dashboard"
+}
