@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "start": "lerna run --scope @Dashboard/* --parallel start",
-        "dev": "lerna run dev --parallel"
+        "dev": "lerna run dev --parallel",
+        "setup": "lerna exec npm install"
     },
     "devDependencies": {
         "@lerna/run": "^3.21.0",
